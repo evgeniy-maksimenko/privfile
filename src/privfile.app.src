@@ -1,0 +1,25 @@
+{application, privfile,
+ [
+  {description, "Upload files that will self-destruct after being download"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib,
+    crypto,
+    asn1,
+    public_key,
+    ssl,
+    sasl,
+    inets,
+    compiler,
+    syntax_tools,
+    ranch,
+    cowlib,
+    cowboy,
+    sync,
+    mnesia
+  ]},
+  {mod, { privfile_app, []}},
+  {env, []}
+ ]}.

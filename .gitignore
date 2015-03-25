@@ -1,0 +1,10 @@
+.idea/*
+deps/*
+log/*
+erl_crash.dump
+sasl.log
+privfile.iml
+ebin/*
+aic.ets
+Guardfile
+priv/db/
